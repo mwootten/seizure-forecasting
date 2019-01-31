@@ -1,0 +1,643 @@
+Mean of FP1-F7
+Mean of F7-T7
+Mean of T7-P7
+Mean of P7-O1
+Mean of FP1-F3
+Mean of F3-C3
+Mean of C3-P3
+Mean of P3-O1
+Mean of FP2-F4
+Mean of F4-C4
+Mean of C4-P4
+Mean of P4-O2
+Mean of FP2-F8
+Mean of F8-T8
+Mean of T8-P8
+Mean of P8-O2
+Mean of FZ-CZ
+Mean of CZ-PZ
+Variance of FP1-F7
+Variance of F7-T7
+Variance of T7-P7
+Variance of P7-O1
+Variance of FP1-F3
+Variance of F3-C3
+Variance of C3-P3
+Variance of P3-O1
+Variance of FP2-F4
+Variance of F4-C4
+Variance of C4-P4
+Variance of P4-O2
+Variance of FP2-F8
+Variance of F8-T8
+Variance of T8-P8
+Variance of P8-O2
+Variance of FZ-CZ
+Variance of CZ-PZ
+Skewness of FP1-F7
+Skewness of F7-T7
+Skewness of T7-P7
+Skewness of P7-O1
+Skewness of FP1-F3
+Skewness of F3-C3
+Skewness of C3-P3
+Skewness of P3-O1
+Skewness of FP2-F4
+Skewness of F4-C4
+Skewness of C4-P4
+Skewness of P4-O2
+Skewness of FP2-F8
+Skewness of F8-T8
+Skewness of T8-P8
+Skewness of P8-O2
+Skewness of FZ-CZ
+Skewness of CZ-PZ
+Kurtosis of FP1-F7
+Kurtosis of F7-T7
+Kurtosis of T7-P7
+Kurtosis of P7-O1
+Kurtosis of FP1-F3
+Kurtosis of F3-C3
+Kurtosis of C3-P3
+Kurtosis of P3-O1
+Kurtosis of FP2-F4
+Kurtosis of F4-C4
+Kurtosis of C4-P4
+Kurtosis of P4-O2
+Kurtosis of FP2-F8
+Kurtosis of F8-T8
+Kurtosis of T8-P8
+Kurtosis of P8-O2
+Kurtosis of FZ-CZ
+Kurtosis of CZ-PZ
+Standard deviation of FP1-F7
+Standard deviation of F7-T7
+Standard deviation of T7-P7
+Standard deviation of P7-O1
+Standard deviation of FP1-F3
+Standard deviation of F3-C3
+Standard deviation of C3-P3
+Standard deviation of P3-O1
+Standard deviation of FP2-F4
+Standard deviation of F4-C4
+Standard deviation of C4-P4
+Standard deviation of P4-O2
+Standard deviation of FP2-F8
+Standard deviation of F8-T8
+Standard deviation of T8-P8
+Standard deviation of P8-O2
+Standard deviation of FZ-CZ
+Standard deviation of CZ-PZ
+Zero crossings of FP1-F7
+Zero crossings of F7-T7
+Zero crossings of T7-P7
+Zero crossings of P7-O1
+Zero crossings of FP1-F3
+Zero crossings of F3-C3
+Zero crossings of C3-P3
+Zero crossings of P3-O1
+Zero crossings of FP2-F4
+Zero crossings of F4-C4
+Zero crossings of C4-P4
+Zero crossings of P4-O2
+Zero crossings of FP2-F8
+Zero crossings of F8-T8
+Zero crossings of T8-P8
+Zero crossings of P8-O2
+Zero crossings of FZ-CZ
+Zero crossings of CZ-PZ
+Peak-to-peak range of FP1-F7
+Peak-to-peak range of F7-T7
+Peak-to-peak range of T7-P7
+Peak-to-peak range of P7-O1
+Peak-to-peak range of FP1-F3
+Peak-to-peak range of F3-C3
+Peak-to-peak range of C3-P3
+Peak-to-peak range of P3-O1
+Peak-to-peak range of FP2-F4
+Peak-to-peak range of F4-C4
+Peak-to-peak range of C4-P4
+Peak-to-peak range of P4-O2
+Peak-to-peak range of FP2-F8
+Peak-to-peak range of F8-T8
+Peak-to-peak range of T8-P8
+Peak-to-peak range of P8-O2
+Peak-to-peak range of FZ-CZ
+Peak-to-peak range of CZ-PZ
+Total signal area of FP1-F7
+Total signal area of F7-T7
+Total signal area of T7-P7
+Total signal area of P7-O1
+Total signal area of FP1-F3
+Total signal area of F3-C3
+Total signal area of C3-P3
+Total signal area of P3-O1
+Total signal area of FP2-F4
+Total signal area of F4-C4
+Total signal area of C4-P4
+Total signal area of P4-O2
+Total signal area of FP2-F8
+Total signal area of F8-T8
+Total signal area of T8-P8
+Total signal area of P8-O2
+Total signal area of FZ-CZ
+Total signal area of CZ-PZ
+Signal energy of FP1-F7
+Signal energy of F7-T7
+Signal energy of T7-P7
+Signal energy of P7-O1
+Signal energy of FP1-F3
+Signal energy of F3-C3
+Signal energy of C3-P3
+Signal energy of P3-O1
+Signal energy of FP2-F4
+Signal energy of F4-C4
+Signal energy of C4-P4
+Signal energy of P4-O2
+Signal energy of FP2-F8
+Signal energy of F8-T8
+Signal energy of T8-P8
+Signal energy of P8-O2
+Signal energy of FZ-CZ
+Signal energy of CZ-PZ
+Percentage of energy in band Delta for channel FP1-F7
+Percentage of energy in band Theta for channel FP1-F7
+Percentage of energy in band Alpha for channel FP1-F7
+Percentage of energy in band Beta for channel FP1-F7
+Percentage of energy in band Low Gamma for channel FP1-F7
+Percentage of energy in band High Gamma for channel FP1-F7
+Percentage of energy in band Delta for channel F7-T7
+Percentage of energy in band Theta for channel F7-T7
+Percentage of energy in band Alpha for channel F7-T7
+Percentage of energy in band Beta for channel F7-T7
+Percentage of energy in band Low Gamma for channel F7-T7
+Percentage of energy in band High Gamma for channel F7-T7
+Percentage of energy in band Delta for channel T7-P7
+Percentage of energy in band Theta for channel T7-P7
+Percentage of energy in band Alpha for channel T7-P7
+Percentage of energy in band Beta for channel T7-P7
+Percentage of energy in band Low Gamma for channel T7-P7
+Percentage of energy in band High Gamma for channel T7-P7
+Percentage of energy in band Delta for channel P7-O1
+Percentage of energy in band Theta for channel P7-O1
+Percentage of energy in band Alpha for channel P7-O1
+Percentage of energy in band Beta for channel P7-O1
+Percentage of energy in band Low Gamma for channel P7-O1
+Percentage of energy in band High Gamma for channel P7-O1
+Percentage of energy in band Delta for channel FP1-F3
+Percentage of energy in band Theta for channel FP1-F3
+Percentage of energy in band Alpha for channel FP1-F3
+Percentage of energy in band Beta for channel FP1-F3
+Percentage of energy in band Low Gamma for channel FP1-F3
+Percentage of energy in band High Gamma for channel FP1-F3
+Percentage of energy in band Delta for channel F3-C3
+Percentage of energy in band Theta for channel F3-C3
+Percentage of energy in band Alpha for channel F3-C3
+Percentage of energy in band Beta for channel F3-C3
+Percentage of energy in band Low Gamma for channel F3-C3
+Percentage of energy in band High Gamma for channel F3-C3
+Percentage of energy in band Delta for channel C3-P3
+Percentage of energy in band Theta for channel C3-P3
+Percentage of energy in band Alpha for channel C3-P3
+Percentage of energy in band Beta for channel C3-P3
+Percentage of energy in band Low Gamma for channel C3-P3
+Percentage of energy in band High Gamma for channel C3-P3
+Percentage of energy in band Delta for channel P3-O1
+Percentage of energy in band Theta for channel P3-O1
+Percentage of energy in band Alpha for channel P3-O1
+Percentage of energy in band Beta for channel P3-O1
+Percentage of energy in band Low Gamma for channel P3-O1
+Percentage of energy in band High Gamma for channel P3-O1
+Percentage of energy in band Delta for channel FP2-F4
+Percentage of energy in band Theta for channel FP2-F4
+Percentage of energy in band Alpha for channel FP2-F4
+Percentage of energy in band Beta for channel FP2-F4
+Percentage of energy in band Low Gamma for channel FP2-F4
+Percentage of energy in band High Gamma for channel FP2-F4
+Percentage of energy in band Delta for channel F4-C4
+Percentage of energy in band Theta for channel F4-C4
+Percentage of energy in band Alpha for channel F4-C4
+Percentage of energy in band Beta for channel F4-C4
+Percentage of energy in band Low Gamma for channel F4-C4
+Percentage of energy in band High Gamma for channel F4-C4
+Percentage of energy in band Delta for channel C4-P4
+Percentage of energy in band Theta for channel C4-P4
+Percentage of energy in band Alpha for channel C4-P4
+Percentage of energy in band Beta for channel C4-P4
+Percentage of energy in band Low Gamma for channel C4-P4
+Percentage of energy in band High Gamma for channel C4-P4
+Percentage of energy in band Delta for channel P4-O2
+Percentage of energy in band Theta for channel P4-O2
+Percentage of energy in band Alpha for channel P4-O2
+Percentage of energy in band Beta for channel P4-O2
+Percentage of energy in band Low Gamma for channel P4-O2
+Percentage of energy in band High Gamma for channel P4-O2
+Percentage of energy in band Delta for channel FP2-F8
+Percentage of energy in band Theta for channel FP2-F8
+Percentage of energy in band Alpha for channel FP2-F8
+Percentage of energy in band Beta for channel FP2-F8
+Percentage of energy in band Low Gamma for channel FP2-F8
+Percentage of energy in band High Gamma for channel FP2-F8
+Percentage of energy in band Delta for channel F8-T8
+Percentage of energy in band Theta for channel F8-T8
+Percentage of energy in band Alpha for channel F8-T8
+Percentage of energy in band Beta for channel F8-T8
+Percentage of energy in band Low Gamma for channel F8-T8
+Percentage of energy in band High Gamma for channel F8-T8
+Percentage of energy in band Delta for channel T8-P8
+Percentage of energy in band Theta for channel T8-P8
+Percentage of energy in band Alpha for channel T8-P8
+Percentage of energy in band Beta for channel T8-P8
+Percentage of energy in band Low Gamma for channel T8-P8
+Percentage of energy in band High Gamma for channel T8-P8
+Percentage of energy in band Delta for channel P8-O2
+Percentage of energy in band Theta for channel P8-O2
+Percentage of energy in band Alpha for channel P8-O2
+Percentage of energy in band Beta for channel P8-O2
+Percentage of energy in band Low Gamma for channel P8-O2
+Percentage of energy in band High Gamma for channel P8-O2
+Percentage of energy in band Delta for channel FZ-CZ
+Percentage of energy in band Theta for channel FZ-CZ
+Percentage of energy in band Alpha for channel FZ-CZ
+Percentage of energy in band Beta for channel FZ-CZ
+Percentage of energy in band Low Gamma for channel FZ-CZ
+Percentage of energy in band High Gamma for channel FZ-CZ
+Percentage of energy in band Delta for channel CZ-PZ
+Percentage of energy in band Theta for channel CZ-PZ
+Percentage of energy in band Alpha for channel CZ-PZ
+Percentage of energy in band Beta for channel CZ-PZ
+Percentage of energy in band Low Gamma for channel CZ-PZ
+Percentage of energy in band High Gamma for channel CZ-PZ
+Average DWT coefficient for band 64-128 Hz for channel FP1-F7
+Average DWT coefficient for band 32-64 Hz for channel FP1-F7
+Average DWT coefficient for band 16-32 Hz for channel FP1-F7
+Average DWT coefficient for band 8-16 Hz for channel FP1-F7
+Average DWT coefficient for band 4-8 Hz for channel FP1-F7
+Average DWT coefficient for band 2-4 Hz for channel FP1-F7
+Average DWT coefficient for band 1-2 Hz for channel FP1-F7
+Average DWT coefficient for band 64-128 Hz for channel F7-T7
+Average DWT coefficient for band 32-64 Hz for channel F7-T7
+Average DWT coefficient for band 16-32 Hz for channel F7-T7
+Average DWT coefficient for band 8-16 Hz for channel F7-T7
+Average DWT coefficient for band 4-8 Hz for channel F7-T7
+Average DWT coefficient for band 2-4 Hz for channel F7-T7
+Average DWT coefficient for band 1-2 Hz for channel F7-T7
+Average DWT coefficient for band 64-128 Hz for channel T7-P7
+Average DWT coefficient for band 32-64 Hz for channel T7-P7
+Average DWT coefficient for band 16-32 Hz for channel T7-P7
+Average DWT coefficient for band 8-16 Hz for channel T7-P7
+Average DWT coefficient for band 4-8 Hz for channel T7-P7
+Average DWT coefficient for band 2-4 Hz for channel T7-P7
+Average DWT coefficient for band 1-2 Hz for channel T7-P7
+Average DWT coefficient for band 64-128 Hz for channel P7-O1
+Average DWT coefficient for band 32-64 Hz for channel P7-O1
+Average DWT coefficient for band 16-32 Hz for channel P7-O1
+Average DWT coefficient for band 8-16 Hz for channel P7-O1
+Average DWT coefficient for band 4-8 Hz for channel P7-O1
+Average DWT coefficient for band 2-4 Hz for channel P7-O1
+Average DWT coefficient for band 1-2 Hz for channel P7-O1
+Average DWT coefficient for band 64-128 Hz for channel FP1-F3
+Average DWT coefficient for band 32-64 Hz for channel FP1-F3
+Average DWT coefficient for band 16-32 Hz for channel FP1-F3
+Average DWT coefficient for band 8-16 Hz for channel FP1-F3
+Average DWT coefficient for band 4-8 Hz for channel FP1-F3
+Average DWT coefficient for band 2-4 Hz for channel FP1-F3
+Average DWT coefficient for band 1-2 Hz for channel FP1-F3
+Average DWT coefficient for band 64-128 Hz for channel F3-C3
+Average DWT coefficient for band 32-64 Hz for channel F3-C3
+Average DWT coefficient for band 16-32 Hz for channel F3-C3
+Average DWT coefficient for band 8-16 Hz for channel F3-C3
+Average DWT coefficient for band 4-8 Hz for channel F3-C3
+Average DWT coefficient for band 2-4 Hz for channel F3-C3
+Average DWT coefficient for band 1-2 Hz for channel F3-C3
+Average DWT coefficient for band 64-128 Hz for channel C3-P3
+Average DWT coefficient for band 32-64 Hz for channel C3-P3
+Average DWT coefficient for band 16-32 Hz for channel C3-P3
+Average DWT coefficient for band 8-16 Hz for channel C3-P3
+Average DWT coefficient for band 4-8 Hz for channel C3-P3
+Average DWT coefficient for band 2-4 Hz for channel C3-P3
+Average DWT coefficient for band 1-2 Hz for channel C3-P3
+Average DWT coefficient for band 64-128 Hz for channel P3-O1
+Average DWT coefficient for band 32-64 Hz for channel P3-O1
+Average DWT coefficient for band 16-32 Hz for channel P3-O1
+Average DWT coefficient for band 8-16 Hz for channel P3-O1
+Average DWT coefficient for band 4-8 Hz for channel P3-O1
+Average DWT coefficient for band 2-4 Hz for channel P3-O1
+Average DWT coefficient for band 1-2 Hz for channel P3-O1
+Average DWT coefficient for band 64-128 Hz for channel FP2-F4
+Average DWT coefficient for band 32-64 Hz for channel FP2-F4
+Average DWT coefficient for band 16-32 Hz for channel FP2-F4
+Average DWT coefficient for band 8-16 Hz for channel FP2-F4
+Average DWT coefficient for band 4-8 Hz for channel FP2-F4
+Average DWT coefficient for band 2-4 Hz for channel FP2-F4
+Average DWT coefficient for band 1-2 Hz for channel FP2-F4
+Average DWT coefficient for band 64-128 Hz for channel F4-C4
+Average DWT coefficient for band 32-64 Hz for channel F4-C4
+Average DWT coefficient for band 16-32 Hz for channel F4-C4
+Average DWT coefficient for band 8-16 Hz for channel F4-C4
+Average DWT coefficient for band 4-8 Hz for channel F4-C4
+Average DWT coefficient for band 2-4 Hz for channel F4-C4
+Average DWT coefficient for band 1-2 Hz for channel F4-C4
+Average DWT coefficient for band 64-128 Hz for channel C4-P4
+Average DWT coefficient for band 32-64 Hz for channel C4-P4
+Average DWT coefficient for band 16-32 Hz for channel C4-P4
+Average DWT coefficient for band 8-16 Hz for channel C4-P4
+Average DWT coefficient for band 4-8 Hz for channel C4-P4
+Average DWT coefficient for band 2-4 Hz for channel C4-P4
+Average DWT coefficient for band 1-2 Hz for channel C4-P4
+Average DWT coefficient for band 64-128 Hz for channel P4-O2
+Average DWT coefficient for band 32-64 Hz for channel P4-O2
+Average DWT coefficient for band 16-32 Hz for channel P4-O2
+Average DWT coefficient for band 8-16 Hz for channel P4-O2
+Average DWT coefficient for band 4-8 Hz for channel P4-O2
+Average DWT coefficient for band 2-4 Hz for channel P4-O2
+Average DWT coefficient for band 1-2 Hz for channel P4-O2
+Average DWT coefficient for band 64-128 Hz for channel FP2-F8
+Average DWT coefficient for band 32-64 Hz for channel FP2-F8
+Average DWT coefficient for band 16-32 Hz for channel FP2-F8
+Average DWT coefficient for band 8-16 Hz for channel FP2-F8
+Average DWT coefficient for band 4-8 Hz for channel FP2-F8
+Average DWT coefficient for band 2-4 Hz for channel FP2-F8
+Average DWT coefficient for band 1-2 Hz for channel FP2-F8
+Average DWT coefficient for band 64-128 Hz for channel F8-T8
+Average DWT coefficient for band 32-64 Hz for channel F8-T8
+Average DWT coefficient for band 16-32 Hz for channel F8-T8
+Average DWT coefficient for band 8-16 Hz for channel F8-T8
+Average DWT coefficient for band 4-8 Hz for channel F8-T8
+Average DWT coefficient for band 2-4 Hz for channel F8-T8
+Average DWT coefficient for band 1-2 Hz for channel F8-T8
+Average DWT coefficient for band 64-128 Hz for channel T8-P8
+Average DWT coefficient for band 32-64 Hz for channel T8-P8
+Average DWT coefficient for band 16-32 Hz for channel T8-P8
+Average DWT coefficient for band 8-16 Hz for channel T8-P8
+Average DWT coefficient for band 4-8 Hz for channel T8-P8
+Average DWT coefficient for band 2-4 Hz for channel T8-P8
+Average DWT coefficient for band 1-2 Hz for channel T8-P8
+Average DWT coefficient for band 64-128 Hz for channel P8-O2
+Average DWT coefficient for band 32-64 Hz for channel P8-O2
+Average DWT coefficient for band 16-32 Hz for channel P8-O2
+Average DWT coefficient for band 8-16 Hz for channel P8-O2
+Average DWT coefficient for band 4-8 Hz for channel P8-O2
+Average DWT coefficient for band 2-4 Hz for channel P8-O2
+Average DWT coefficient for band 1-2 Hz for channel P8-O2
+Average DWT coefficient for band 64-128 Hz for channel FZ-CZ
+Average DWT coefficient for band 32-64 Hz for channel FZ-CZ
+Average DWT coefficient for band 16-32 Hz for channel FZ-CZ
+Average DWT coefficient for band 8-16 Hz for channel FZ-CZ
+Average DWT coefficient for band 4-8 Hz for channel FZ-CZ
+Average DWT coefficient for band 2-4 Hz for channel FZ-CZ
+Average DWT coefficient for band 1-2 Hz for channel FZ-CZ
+Average DWT coefficient for band 64-128 Hz for channel CZ-PZ
+Average DWT coefficient for band 32-64 Hz for channel CZ-PZ
+Average DWT coefficient for band 16-32 Hz for channel CZ-PZ
+Average DWT coefficient for band 8-16 Hz for channel CZ-PZ
+Average DWT coefficient for band 4-8 Hz for channel CZ-PZ
+Average DWT coefficient for band 2-4 Hz for channel CZ-PZ
+Average DWT coefficient for band 1-2 Hz for channel CZ-PZ
+Cross-correlation between FP1-F7 and F7-T7
+Cross-correlation between FP1-F7 and T7-P7
+Cross-correlation between FP1-F7 and P7-O1
+Cross-correlation between FP1-F7 and FP1-F3
+Cross-correlation between FP1-F7 and F3-C3
+Cross-correlation between FP1-F7 and C3-P3
+Cross-correlation between FP1-F7 and P3-O1
+Cross-correlation between FP1-F7 and FP2-F4
+Cross-correlation between FP1-F7 and F4-C4
+Cross-correlation between FP1-F7 and C4-P4
+Cross-correlation between FP1-F7 and P4-O2
+Cross-correlation between FP1-F7 and FP2-F8
+Cross-correlation between FP1-F7 and F8-T8
+Cross-correlation between FP1-F7 and T8-P8
+Cross-correlation between FP1-F7 and P8-O2
+Cross-correlation between FP1-F7 and FZ-CZ
+Cross-correlation between FP1-F7 and CZ-PZ
+Cross-correlation between F7-T7 and T7-P7
+Cross-correlation between F7-T7 and P7-O1
+Cross-correlation between F7-T7 and FP1-F3
+Cross-correlation between F7-T7 and F3-C3
+Cross-correlation between F7-T7 and C3-P3
+Cross-correlation between F7-T7 and P3-O1
+Cross-correlation between F7-T7 and FP2-F4
+Cross-correlation between F7-T7 and F4-C4
+Cross-correlation between F7-T7 and C4-P4
+Cross-correlation between F7-T7 and P4-O2
+Cross-correlation between F7-T7 and FP2-F8
+Cross-correlation between F7-T7 and F8-T8
+Cross-correlation between F7-T7 and T8-P8
+Cross-correlation between F7-T7 and P8-O2
+Cross-correlation between F7-T7 and FZ-CZ
+Cross-correlation between F7-T7 and CZ-PZ
+Cross-correlation between T7-P7 and P7-O1
+Cross-correlation between T7-P7 and FP1-F3
+Cross-correlation between T7-P7 and F3-C3
+Cross-correlation between T7-P7 and C3-P3
+Cross-correlation between T7-P7 and P3-O1
+Cross-correlation between T7-P7 and FP2-F4
+Cross-correlation between T7-P7 and F4-C4
+Cross-correlation between T7-P7 and C4-P4
+Cross-correlation between T7-P7 and P4-O2
+Cross-correlation between T7-P7 and FP2-F8
+Cross-correlation between T7-P7 and F8-T8
+Cross-correlation between T7-P7 and T8-P8
+Cross-correlation between T7-P7 and P8-O2
+Cross-correlation between T7-P7 and FZ-CZ
+Cross-correlation between T7-P7 and CZ-PZ
+Cross-correlation between P7-O1 and FP1-F3
+Cross-correlation between P7-O1 and F3-C3
+Cross-correlation between P7-O1 and C3-P3
+Cross-correlation between P7-O1 and P3-O1
+Cross-correlation between P7-O1 and FP2-F4
+Cross-correlation between P7-O1 and F4-C4
+Cross-correlation between P7-O1 and C4-P4
+Cross-correlation between P7-O1 and P4-O2
+Cross-correlation between P7-O1 and FP2-F8
+Cross-correlation between P7-O1 and F8-T8
+Cross-correlation between P7-O1 and T8-P8
+Cross-correlation between P7-O1 and P8-O2
+Cross-correlation between P7-O1 and FZ-CZ
+Cross-correlation between P7-O1 and CZ-PZ
+Cross-correlation between FP1-F3 and F3-C3
+Cross-correlation between FP1-F3 and C3-P3
+Cross-correlation between FP1-F3 and P3-O1
+Cross-correlation between FP1-F3 and FP2-F4
+Cross-correlation between FP1-F3 and F4-C4
+Cross-correlation between FP1-F3 and C4-P4
+Cross-correlation between FP1-F3 and P4-O2
+Cross-correlation between FP1-F3 and FP2-F8
+Cross-correlation between FP1-F3 and F8-T8
+Cross-correlation between FP1-F3 and T8-P8
+Cross-correlation between FP1-F3 and P8-O2
+Cross-correlation between FP1-F3 and FZ-CZ
+Cross-correlation between FP1-F3 and CZ-PZ
+Cross-correlation between F3-C3 and C3-P3
+Cross-correlation between F3-C3 and P3-O1
+Cross-correlation between F3-C3 and FP2-F4
+Cross-correlation between F3-C3 and F4-C4
+Cross-correlation between F3-C3 and C4-P4
+Cross-correlation between F3-C3 and P4-O2
+Cross-correlation between F3-C3 and FP2-F8
+Cross-correlation between F3-C3 and F8-T8
+Cross-correlation between F3-C3 and T8-P8
+Cross-correlation between F3-C3 and P8-O2
+Cross-correlation between F3-C3 and FZ-CZ
+Cross-correlation between F3-C3 and CZ-PZ
+Cross-correlation between C3-P3 and P3-O1
+Cross-correlation between C3-P3 and FP2-F4
+Cross-correlation between C3-P3 and F4-C4
+Cross-correlation between C3-P3 and C4-P4
+Cross-correlation between C3-P3 and P4-O2
+Cross-correlation between C3-P3 and FP2-F8
+Cross-correlation between C3-P3 and F8-T8
+Cross-correlation between C3-P3 and T8-P8
+Cross-correlation between C3-P3 and P8-O2
+Cross-correlation between C3-P3 and FZ-CZ
+Cross-correlation between C3-P3 and CZ-PZ
+Cross-correlation between P3-O1 and FP2-F4
+Cross-correlation between P3-O1 and F4-C4
+Cross-correlation between P3-O1 and C4-P4
+Cross-correlation between P3-O1 and P4-O2
+Cross-correlation between P3-O1 and FP2-F8
+Cross-correlation between P3-O1 and F8-T8
+Cross-correlation between P3-O1 and T8-P8
+Cross-correlation between P3-O1 and P8-O2
+Cross-correlation between P3-O1 and FZ-CZ
+Cross-correlation between P3-O1 and CZ-PZ
+Cross-correlation between FP2-F4 and F4-C4
+Cross-correlation between FP2-F4 and C4-P4
+Cross-correlation between FP2-F4 and P4-O2
+Cross-correlation between FP2-F4 and FP2-F8
+Cross-correlation between FP2-F4 and F8-T8
+Cross-correlation between FP2-F4 and T8-P8
+Cross-correlation between FP2-F4 and P8-O2
+Cross-correlation between FP2-F4 and FZ-CZ
+Cross-correlation between FP2-F4 and CZ-PZ
+Cross-correlation between F4-C4 and C4-P4
+Cross-correlation between F4-C4 and P4-O2
+Cross-correlation between F4-C4 and FP2-F8
+Cross-correlation between F4-C4 and F8-T8
+Cross-correlation between F4-C4 and T8-P8
+Cross-correlation between F4-C4 and P8-O2
+Cross-correlation between F4-C4 and FZ-CZ
+Cross-correlation between F4-C4 and CZ-PZ
+Cross-correlation between C4-P4 and P4-O2
+Cross-correlation between C4-P4 and FP2-F8
+Cross-correlation between C4-P4 and F8-T8
+Cross-correlation between C4-P4 and T8-P8
+Cross-correlation between C4-P4 and P8-O2
+Cross-correlation between C4-P4 and FZ-CZ
+Cross-correlation between C4-P4 and CZ-PZ
+Cross-correlation between P4-O2 and FP2-F8
+Cross-correlation between P4-O2 and F8-T8
+Cross-correlation between P4-O2 and T8-P8
+Cross-correlation between P4-O2 and P8-O2
+Cross-correlation between P4-O2 and FZ-CZ
+Cross-correlation between P4-O2 and CZ-PZ
+Cross-correlation between FP2-F8 and F8-T8
+Cross-correlation between FP2-F8 and T8-P8
+Cross-correlation between FP2-F8 and P8-O2
+Cross-correlation between FP2-F8 and FZ-CZ
+Cross-correlation between FP2-F8 and CZ-PZ
+Cross-correlation between F8-T8 and T8-P8
+Cross-correlation between F8-T8 and P8-O2
+Cross-correlation between F8-T8 and FZ-CZ
+Cross-correlation between F8-T8 and CZ-PZ
+Cross-correlation between T8-P8 and P8-O2
+Cross-correlation between T8-P8 and FZ-CZ
+Cross-correlation between T8-P8 and CZ-PZ
+Cross-correlation between P8-O2 and FZ-CZ
+Cross-correlation between P8-O2 and CZ-PZ
+Cross-correlation between FZ-CZ and CZ-PZ
+Decorrelation time for FP1-F7
+Decorrelation time for F7-T7
+Decorrelation time for T7-P7
+Decorrelation time for P7-O1
+Decorrelation time for FP1-F3
+Decorrelation time for F3-C3
+Decorrelation time for C3-P3
+Decorrelation time for P3-O1
+Decorrelation time for FP2-F4
+Decorrelation time for F4-C4
+Decorrelation time for C4-P4
+Decorrelation time for P4-O2
+Decorrelation time for FP2-F8
+Decorrelation time for F8-T8
+Decorrelation time for T8-P8
+Decorrelation time for P8-O2
+Decorrelation time for FZ-CZ
+Decorrelation time for CZ-PZ
+Clustering coefficient of FP1-F7
+Clustering coefficient of F7-T7
+Clustering coefficient of T7-P7
+Clustering coefficient of P7-O1
+Clustering coefficient of FP1-F3
+Clustering coefficient of F3-C3
+Clustering coefficient of C3-P3
+Clustering coefficient of P3-O1
+Clustering coefficient of FP2-F4
+Clustering coefficient of F4-C4
+Clustering coefficient of C4-P4
+Clustering coefficient of P4-O2
+Clustering coefficient of FP2-F8
+Clustering coefficient of F8-T8
+Clustering coefficient of T8-P8
+Clustering coefficient of P8-O2
+Clustering coefficient of FZ-CZ
+Clustering coefficient of CZ-PZ
+Local efficiency of FP1-F7
+Local efficiency of F7-T7
+Local efficiency of T7-P7
+Local efficiency of P7-O1
+Local efficiency of FP1-F3
+Local efficiency of F3-C3
+Local efficiency of C3-P3
+Local efficiency of P3-O1
+Local efficiency of FP2-F4
+Local efficiency of F4-C4
+Local efficiency of C4-P4
+Local efficiency of P4-O2
+Local efficiency of FP2-F8
+Local efficiency of F8-T8
+Local efficiency of T8-P8
+Local efficiency of P8-O2
+Local efficiency of FZ-CZ
+Local efficiency of CZ-PZ
+Betweenness centrality of FP1-F7
+Betweenness centrality of F7-T7
+Betweenness centrality of T7-P7
+Betweenness centrality of P7-O1
+Betweenness centrality of FP1-F3
+Betweenness centrality of F3-C3
+Betweenness centrality of C3-P3
+Betweenness centrality of P3-O1
+Betweenness centrality of FP2-F4
+Betweenness centrality of F4-C4
+Betweenness centrality of C4-P4
+Betweenness centrality of P4-O2
+Betweenness centrality of FP2-F8
+Betweenness centrality of F8-T8
+Betweenness centrality of T8-P8
+Betweenness centrality of P8-O2
+Betweenness centrality of FZ-CZ
+Betweenness centrality of CZ-PZ
+Eccentricity of FP1-F7
+Eccentricity of F7-T7
+Eccentricity of T7-P7
+Eccentricity of P7-O1
+Eccentricity of FP1-F3
+Eccentricity of F3-C3
+Eccentricity of C3-P3
+Eccentricity of P3-O1
+Eccentricity of FP2-F4
+Eccentricity of F4-C4
+Eccentricity of C4-P4
+Eccentricity of P4-O2
+Eccentricity of FP2-F8
+Eccentricity of F8-T8
+Eccentricity of T8-P8
+Eccentricity of P8-O2
+Eccentricity of FZ-CZ
+Eccentricity of CZ-PZ
+Global efficiency
+Global diameter
+Global radius
+Global characteristic path
