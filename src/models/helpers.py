@@ -33,6 +33,23 @@ def load_data(kind):
 
     return (Xs, Ys)
 
+def load_data_in_chunks(kind, chunk_size):
+    data_dir = os.path.join(PROJECT_ROOT, 'data', 'processed', kind)
+    raw_xs = [
+        np.load(file) for file in list_absolute(os.path.join(data_dir, 'X'))
+    ]
+    raw_ys = [
+        np.load(file) for file in list_absolute(os.path.join(data_dir, 'Y'))
+    ]
+    Xs = []
+    Ys = []
+    for (raw_x_file, raw_y_file) in zip(raw_xs, raw_ys):
+        for i_start in range(len(raw_x_file) - (chunk_size - 1)):
+            Xs.append(raw_x_file[i_start:i_start + chunk_size])
+            # to prevent cheating tag with the closest timestamp
+            Ys.append(raw_y_file[i_start + chunk_size - 1])
+    return (np.array(Xs), np.array(Ys))
+
 def report_results(X, Y_true, Y_pred, predictor_name, outfile):
     r2 = r2_score(Y_true, Y_pred)
     (n, p) = X.shape
