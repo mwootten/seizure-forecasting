@@ -46,11 +46,11 @@ convolutional network does not perform well.
 
 | Model         | R^2    | Adjusted R^2 |
 | ------------- | ------ | ------------ |
-| Dummy         | -0.132 | -0.209       |
-| Linear        | -3.359 | -3.659       |
-| MLP           | -5.765 | -6.229       |
-| Random forest | -1.481 | -1.652       |
-| XGBoost       | -1.647 | -1.829       |
+| Dummy         | -0.616 | -0.756 |
+| Linear        | -2.883 | -3.219 |
+| MLP           | -3.544 | -3.937 |
+| Random forest | -1.505 | -1.722 |
+| XGBoost       | -1.385 | -1.591 |
 
 See the `reports/figures` directory for predicted-actual plots.
 

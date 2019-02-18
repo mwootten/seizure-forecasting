@@ -25,8 +25,8 @@ def parse_summary_file(name):
             endpoints_text = parts[4:]
             endpoints = []
             for i in range(len(endpoints_text) // 2):
-                t_i = int(endpoints_text[i+0].split(" ")[-2])
-                t_f = int(endpoints_text[i+1].split(" ")[-2])
+                t_i = int(endpoints_text[2*i+0].split(" ")[-2])
+                t_f = int(endpoints_text[2*i+1].split(" ")[-2])
                 endpoints.append((t_i, t_f))
             records[file_name] = endpoints
         return records
