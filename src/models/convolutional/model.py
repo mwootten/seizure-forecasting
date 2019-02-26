@@ -11,32 +11,21 @@ import torch.nn.functional as F
 
 class Net(nn.Module):
 
-    def __init__(self, sizes=[643, 160, 40, 10, 2]):
+    def __init__(self):
         super(Net, self).__init__()
-        self.conv1 = nn.Conv2d(1, 1, [2,1])
-        self.conv2 = nn.Conv2d(1, 1, [2,1])
-        self.conv3 = nn.Conv2d(1, 1, [2,1])
-        self.conv4 = nn.Conv2d(1, 1, [2,1])
-        self.conv5 = nn.Conv2d(1, 1, [2,1])
+        self.conv1 = nn.Conv2d(1, 5, [3,1])
+        self.conv2 = nn.Conv2d(5, 1, [3,1])
         # Convolutional to linear neuron
-        self.fc1 = nn.Linear(sizes[0], sizes[1])
-        self.fc2 = nn.Linear(sizes[1], sizes[2])
-        self.fc3 = nn.Linear(sizes[2], sizes[3])
-        self.fc4 = nn.Linear(sizes[3], sizes[4])
-        self.fc5 = nn.Linear(sizes[4], 1)
+        self.fc1 = nn.Linear(643 * 1, 100)
+        self.fc2 = nn.Linear(100, 1)
 
     def forward(self, x):
         x = x.unsqueeze(1)
         x = F.max_pool2d(F.relu(self.conv1(x)), [1,1])
         x = F.max_pool2d(F.relu(self.conv2(x)), [1,1])
-        x = F.max_pool2d(F.relu(self.conv3(x)), [1,1])
-        x = F.max_pool2d(F.relu(self.conv4(x)), [1,1])
         x = x.view(-1, self.num_flat_features(x))
         x = F.relu(self.fc1(x))
-        x = F.relu(self.fc2(x))
-        x = F.relu(self.fc3(x))
-        x = F.relu(self.fc4(x))
-        x = F.relu(self.fc5(x))
+        x = self.fc2(x)
         return x
 
     def num_flat_features(self, x):
