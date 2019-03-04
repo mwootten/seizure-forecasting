@@ -1,4 +1,5 @@
 from skorch import NeuralNet
+from skorch.callbacks import EarlyStopping
 from torch.nn import MSELoss
 from torch.optim import SGD
 import numpy as np
@@ -6,7 +7,7 @@ import numpy as np
 import sys
 sys.path.append('..')
 from helpers import load_data_in_chunks, save_model
-from debug_model import Net
+from model import Net
 
 (Xs, Ys) = load_data_in_chunks('train', chunk_size=5)
 Xs = Xs.astype(np.float32)
@@ -21,7 +22,8 @@ regr = NeuralNet(
     optimizer=SGD,
     optimizer__lr=1e-4,
     optimizer__momentum=0.9,
-    verbose=5
+    verbose=5,
+    callbacks=[('early_stop', EarlyStopping())]
 )
 regr.fit(Xs, Ys / 5000)
 

@@ -13,10 +13,10 @@ class Net(nn.Module):
 
     def __init__(self):
         super(Net, self).__init__()
-        self.conv1 = nn.Conv2d(1, 5, [3,1])
-        self.conv2 = nn.Conv2d(5, 1, [3,1])
+        self.conv1 = nn.Conv2d(1, 500, [3,1])
+        self.conv2 = nn.Conv2d(500, 10, [3,1])
         # Convolutional to linear neuron
-        self.fc1 = nn.Linear(643 * 1, 100)
+        self.fc1 = nn.Linear(643 * 10, 100)
         self.fc2 = nn.Linear(100, 1)
 
     def forward(self, x):
