@@ -11,7 +11,6 @@ class CustomLoss(_Loss):
 
     def forward(self, input, target):
         (theta, thetahat) = (target.squeeze(), input.squeeze())
-        term1 = torch.log(1 + (1 - thetahat / theta) ** 2)
-        term2 = torch.log(math.exp(1) + (theta / thetahat))
-        print(theta / thetahat)
+        term1 = torch.log(1 + (1 - (1+thetahat) / (1+theta)) ** 2)
+        term2 = torch.log(math.exp(1) + ((1+theta) / (1+thetahat)))
         return torch.sum(term1 * term2)

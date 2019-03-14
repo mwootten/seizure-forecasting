@@ -11,8 +11,8 @@ from model import Net
 from CustomLoss import CustomLoss
 
 (Xs, Ys) = load_data_in_chunks('train', chunk_size=5)
-Xs = Xs.astype(np.float32)[:10]
-Ys = Ys.astype(np.float32)[:10]
+Xs = Xs.astype(np.float32)
+Ys = Ys.astype(np.float32)
 
 regr = NeuralNet(
     Net,
@@ -21,8 +21,8 @@ regr = NeuralNet(
     iterator_train__shuffle=True,
     criterion=CustomLoss,
     optimizer=SGD,
-    optimizer__lr=1e-4,
-    optimizer__momentum=0.9,
+    optimizer__lr=1e-5,
+    optimizer__momentum=0.95,
     verbose=5,
     callbacks=[('early_stop', EarlyStopping())]
 )
