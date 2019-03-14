@@ -8,17 +8,18 @@ import sys
 sys.path.append('..')
 from helpers import load_data_in_chunks, save_model
 from model import Net
+from CustomLoss import CustomLoss
 
 (Xs, Ys) = load_data_in_chunks('train', chunk_size=5)
-Xs = Xs.astype(np.float32)
-Ys = Ys.astype(np.float32)
+Xs = Xs.astype(np.float32)[:10]
+Ys = Ys.astype(np.float32)[:10]
 
 regr = NeuralNet(
     Net,
     max_epochs=10000000000,
     batch_size=100,
     iterator_train__shuffle=True,
-    criterion=MSELoss,
+    criterion=CustomLoss,
     optimizer=SGD,
     optimizer__lr=1e-4,
     optimizer__momentum=0.9,
@@ -27,4 +28,4 @@ regr = NeuralNet(
 )
 regr.fit(Xs, Ys / 5000)
 
-save_model(regr, 'convolutional')
+save_model(regr, 'conv-custom')

@@ -44,13 +44,15 @@ convolutional network does not perform well.
 
 ## Evaluation
 
-| Model         | R^2    | Adjusted R^2 |
-| ------------- | ------ | ------------ |
-| Dummy         | -0.616 | -0.756 |
-| Linear        | -2.883 | -3.219 |
-| MLP           | -3.544 | -3.937 |
-| Random forest | -1.505 | -1.722 |
-| XGBoost       | -1.385 | -1.591 |
+| Model                  | R^2    | Adjusted R^2 |
+| ---------------------- | ------ | ------------ |
+| Dummy                  | -0.184 | -0.231 |
+| Linear                 | +0.128 | +0.093 |
+| MLP                    | -0.608 | -0.672 |
+| XGBoost                | -0.499 | -0.558 |
+| Convolutional (MSE)    | -0.013 |        |
+| Convolutional (Custom) | +0.105 |        |
+| LSTM (Custom)          | +0.242 |        |
 
 See the `reports/figures` directory for predicted-actual plots.
 

@@ -156,22 +156,18 @@ def graph_stats(G):
     # Local measures
     clustering_dict = clustering(G, weight='weight')
     adjacency = np.array(adjacency_matrix(G).todense())
-    weight_local_eff = efficiency_wei(adjacency, local=True)
     betweenness_centrality_dict = betweenness_centrality(G, weight='weight')
     paths = shortest_path_length(G, weight='weight')
     eccentricities = [max(dists.values()) for (source, dists) in sorted(paths)]
     local_measures = np.concatenate([
         [v for (k, v) in sorted(clustering_dict.items())],
-        weight_local_eff,
         [v for (k, v) in sorted(betweenness_centrality_dict.items())],
         eccentricities
     ])
-    global_efficiency = efficiency_wei(adjacency, local=False)
     graph_diameter = max(eccentricities)
     graph_radius = min(eccentricities)
     aspl = average_shortest_path_length(G, weight='weight')
     global_measures = np.array([
-        global_efficiency,
         graph_diameter,
         graph_radius,
         aspl
