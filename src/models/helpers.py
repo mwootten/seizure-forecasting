@@ -22,8 +22,8 @@ def load_model(name):
 def save_model(model, name):
     return joblib.dump(model, os.path.join(MODEL_DIR, name + '.pickle'))
 
-def load_data(kind):
-    data_dir = os.path.join(PROJECT_ROOT, 'data', 'processed', kind)
+def load_data(kind, split):
+    data_dir = os.path.join(PROJECT_ROOT, 'data', 'processed', kind, split)
     Xs = np.concatenate([
         np.load(file) for file in list_absolute(os.path.join(data_dir, 'X'))
     ])
@@ -33,8 +33,8 @@ def load_data(kind):
 
     return (Xs, Ys)
 
-def load_data_in_chunks(kind, chunk_size):
-    data_dir = os.path.join(PROJECT_ROOT, 'data', 'processed', kind)
+def load_data_in_chunks(kind, split, chunk_size):
+    data_dir = os.path.join(PROJECT_ROOT, 'data', 'processed', kind, split)
     raw_xs = [
         np.load(file) for file in list_absolute(os.path.join(data_dir, 'X'))
     ]

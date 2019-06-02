@@ -2,7 +2,7 @@ import sys
 sys.path.append('..')
 from helpers import load_data_in_chunks, load_model, report_results
 
-(Xs, Ys) = load_data_in_chunks('test', chunk_size=5)
+(Xs, Ys) = load_data_in_chunks('basic', 'test', chunk_size=5)
 Xs = Xs.astype('float32')
 Ys = Ys.astype('float32')
 regr = load_model('conv-mse')

@@ -10,7 +10,7 @@ from helpers import load_data_in_chunks, save_model
 from model import Net
 from CustomLoss import CustomLoss
 
-(Xs, Ys) = load_data_in_chunks('train', chunk_size=5)
+(Xs, Ys) = load_data_in_chunks('basic', 'train', chunk_size=5)
 Xs = Xs.astype(np.float32)
 Ys = Ys.astype(np.float32)
 
