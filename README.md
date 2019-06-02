@@ -4,6 +4,15 @@ Current work on seizure prediction focuses on classifying segments at any given
 time into "seizure" or "not seizure". Given that solutions to this problem are
 rapidly improving, we ask another question: how long until a seizure occurs?
 
+## TL;DR
+
+Even our best models were awful, so this isn't directly useful. However, we
+expect that parts of our code might be reusable. You can see more in [our
+paper](https://https://github.com/matthewlw/seizure-forecasting/blob/master/references/AngelWootten_2019.pdf).
+Beware that the code is research-quality; if something is broken, feel free to
+email us and we'll try to fix it. We would also appreciate a heads-up if you use
+our work.
+
 ## Input
 
 More precisely, we currently frame the question as "given that there will be a
@@ -67,4 +76,15 @@ See the `reports/figures` directory for predicted-actual plots.
 ## Authors
 
 This code has all been written by Jeremy Angel and Matthew Wootten, except where
-comments explicitly indicate otherwise.
+comments explicitly indicate otherwise. It is licensed under the GPLv3.
+
+To cite this repository, you can use the following:
+
+```
+@misc{AngelWootten_2019,
+  author = {Jeremy Angel and Matthew Wootten},
+  title = {Convolutional neural networks for real-time seizure forecasting},
+  year = 2019,
+  url = {https://github.com/matthewlw/seizure-forecasting}
+}
+```
