@@ -6,8 +6,8 @@ rapidly improving, we ask another question: how long until a seizure occurs?
 
 ## TL;DR
 
-Even our best models were awful, so this isn't directly useful. However, we
-expect that parts of our code might be reusable. You can see more in [our
+Even the best model's predictions were poorly correlated with results (R^2 = 0.242).
+However, we expect that some of the code will remain useful. You can see more in [our
 paper](https://github.com/matthewlw/seizure-forecasting/blob/master/references/AngelWootten_2019.pdf).
 Beware that the code is research-quality; if something is broken, feel free to
 email us and we'll try to fix it. We would also appreciate a heads-up if you use
