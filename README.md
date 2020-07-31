@@ -75,7 +75,7 @@ See the `reports/figures` directory for predicted-actual plots.
 
 ## Authors
 
-This code has all been written by Jeremy Angel and Matthew Wootten, except where
+This code has all been written by [Jeremy Angel](https://github.com/Jeralan) and [Matthew Wootten](https://github.com/matthewlw), except where
 comments explicitly indicate otherwise. It is licensed under the GPLv3.
 
 To cite this repository, you can use the following:
