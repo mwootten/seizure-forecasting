@@ -7,7 +7,7 @@ cycler==0.10.0
 decorator==4.3.2
 future==0.17.1
 idna==2.8
-joblib==0.13.2
+joblib==1.2.0
 kiwisolver==1.0.1
 lifelines==0.19.5
 matplotlib==3.0.2
